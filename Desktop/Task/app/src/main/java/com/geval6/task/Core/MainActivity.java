@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     private GridViewAdapter gridViewAdapter;
     private ArrayList<ModelClass> mGridData;
     private LinearLayout progressCircle;
-    private String URL="https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=c7c7e36e3b626c1ff8c29eb9dfadc60b&user_id=144366085%40N08&format=json&nojsoncallback=1&api_sig=90f7e736b9f41cc20d95e63ebdf39d18";
     private String url="https://api.flickr.com/services/rest/?method=flickr.people.getPhotos&api_key=80d5afc09c82a6777c60ac3bc8005254&user_id=144366085%40N08&format=json&nojsoncallback=1&api_sig=4fdc64854328b6e983532ab7c69a3733";
 
     @Override
